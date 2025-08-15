@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+openai
+qdrant-client
+python-dotenv
+pydantic-settings
+python-multipart
+pytest
+
+# Opcional (solo si usas el fallback local de transcripción):
+# openai-whisper
+# torch  # en Windows/CPU puedes instalarlo aparte: pip install -U torch --index-url https://download.pytorch.org/whl/cpu
